@@ -18,9 +18,10 @@
 1. Follower und Companions **[0%]**
 1. Quest-Baum **[0%]**
 1. Items: Inventare und Kisten **[0%]**
+1. Stats: Fähigkeiten und andere Eigenschaften **[0%]**
 1. Handels-System **[0%]**
 1. Puzzel und interaktive Objekte **[0%]**
-1. Spezielle Interaktionen: Teleport, Levitation, Verwandlung **[0%]**
+1. Spezielle Interaktionen (Magie) **[0%]**
     
 
 ## Einführung
@@ -39,6 +40,23 @@ Dieses Paket beinhaltet alle unbeweglichen Assets. Die Welt bildet die Grundlage
 - Idle-Animationen
 - Shader (?)
 
+### 3. Der Spieler: Physik und Bewegung
+Dieses Paket enthält unter anderem:
+- Bewegung durch Locomotion, Teleport, Snap/Smooth-Turning
+- Leitern hochklettern
+- Springen/Akrobatik
+- Rennen (?)
+- Item-Physik
+
+### 5. Entities
+#### 5.1 Dynamische Objekte
+Hier werden in erster Linie alle beweglichen oder veränderlichen Objekte (Entitäten) ins Leben gerufen. Neben Mobs und NPCs sind das interaktive Objekte wie Türen, Kisten, Crafting-Stations, Betten oder auch Kurbeln. In Abstimmung mit 
+#### 5.2 Interaction-System
+Das grundlegende Interaction-System, das den Spieler in Bezug zu Entities setzt. In Abstimmung mit Unterpunkt 5.1 erhält jede Entity (oder Gruppe von Entities) eigene Methoden, wenn mit ihnen interagiert wird.
+
 ## RoadMap: Non-Essentials
-### Follower und Companions
+### 3. Follower und Companions
 Hängt von Interaction-System, Kampf-System und Dialog-System ab.
+
+### 9. Spezielle Interaktionen (Magie)
+Spezielle Events, die nur sehr situativ vorkommen, vor allem durch Magie: Item-Teleport, Levitation, Verwandlung, etc.
