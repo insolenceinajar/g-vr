@@ -51,7 +51,7 @@ Dieses Paket enthält unter anderem:
 
 ### 5. Entities
 #### 5.1 Dynamische Objekte
-Hier werden in erster Linie alle beweglichen oder veränderlichen Objekte (Entitäten) ins Leben gerufen. Neben Mobs und NPCs sind das interaktive Objekte wie Türen, Kisten, Crafting-Stations, Betten oder auch Kurbeln. In Abstimmung mit 
+Hier werden in erster Linie alle beweglichen oder veränderlichen Objekte (Entitäten) ins Leben gerufen. Neben Mobs und NPCs sind das interaktive Objekte wie Türen, Kisten, Crafting-Stations, Betten oder auch Kurbeln. In Abstimmung mit Unterpunkt 5.2 sollten die Entities so vorbereitet werden, dass sie mit dem Interaction-System Hand-in-Hand gehen.
 #### 5.2 Interaction-System
 Das grundlegende Interaction-System, das den Spieler in Bezug zu Entities setzt. In Abstimmung mit Unterpunkt 5.1 erhält jede Entity (oder Gruppe von Entities) eigene Methoden, wenn mit ihnen interagiert wird.
 
