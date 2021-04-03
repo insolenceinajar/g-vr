@@ -26,7 +26,7 @@
 
 ## Einführung
 Die RoadMap enthält die wichtigsten Teil-Pakete von G:VR. Einige der Pakete bauen aufeinander auf, deshalb beschreibt die Reihenfolge der RoadMap die Pakete in etwa in absteigender Wichtigkeit, aber sie dient vor allem der Orientierung, zumal sich manche der Pakete auch gegenseitig beeinflussen.
-Als "[Essential]" gelten Teile, die für eine grundlegende Funktionalität unentbehrlich sind, während die "[Non-Essentials]" zwar auch teilweise aufeinander aufbauen (so ist zum Beispiel das Follower-System vom Kampf-System abhängig), aber keine notwendigen Elemente darstellen und sich im Zweifel leichter wieder entfernen ließen.
+Als "***Essential***" gelten Teile, die für eine grundlegende Funktionalität unentbehrlich sind, während die "***Non-Essentials***" zwar auch teilweise aufeinander aufbauen (so ist zum Beispiel das Follower-System vom Kampf-System abhängig), aber keine notwendigen Elemente darstellen und sich im Zweifel leichter wieder entfernen ließen.
 
 ## RoadMap: Essentials
 ### 1. Die Welt / Statische Assets
